@@ -8,7 +8,6 @@
 
 @import ScreenLayout;
 
-
 @interface ViewController : SCLPinchViewController
 
 @end

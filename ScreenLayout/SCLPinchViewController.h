@@ -11,6 +11,7 @@
 #import "SCLMotionManager.h"
 #import "SCLPinchLayoutManager.h"
 #import "SCLLayoutObserving.h"
+#import <AVKit/AVKit.h>
 
 /**
  @abstract The SCLPinchViewController class creates a controller object with some basic implementations to manage the screen layout by pinch gestures and device motions.
