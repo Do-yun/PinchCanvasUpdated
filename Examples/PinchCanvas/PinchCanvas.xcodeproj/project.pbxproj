@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6617B4ED293D70D300EF473C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6617B4EC293D70D300EF473C /* JavaScriptCore.framework */; };
+		6617B51F293DAB4300EF473C /* youtube_ios_player_helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6617B51E293DAB4300EF473C /* youtube_ios_player_helper.framework */; };
 		662767F8293C24DD00B58D94 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662767F7293C24DD00B58D94 /* AVKit.framework */; };
 		66276800293C2C5B00B58D94 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662767FF293C2C5B00B58D94 /* MediaPlayer.framework */; };
 		6657DBAB293C67D10037EC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF356BBF1A27052100346FD0 /* Main.storyboard */; };
 		6657DBAD293C6AD10037EC4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6657DBAC293C6AD10037EC4B /* QuartzCore.framework */; };
+		B932D5F30370100B7B45A62C /* Pods_PinchCanvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BFA40A1840FF8CBA80A90C /* Pods_PinchCanvas.framework */; };
 		BF356BB81A27052100346FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF356BB71A27052100346FD0 /* main.m */; };
 		BF356BBB1A27052100346FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF356BBA1A27052100346FD0 /* AppDelegate.m */; };
 		BF356BBE1A27052100346FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF356BBD1A27052100346FD0 /* ViewController.m */; };
@@ -67,11 +70,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06BA5AD16ABD6AA70F322EF6 /* Pods-PinchCanvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinchCanvas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinchCanvas/Pods-PinchCanvas.debug.xcconfig"; sourceTree = "<group>"; };
+		17BFA40A1840FF8CBA80A90C /* Pods_PinchCanvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinchCanvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6617B4E9293D6E0900EF473C /* libXCDYouTubeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libXCDYouTubeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6617B4EC293D70D300EF473C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6617B51E293DAB4300EF473C /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = youtube_ios_player_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		662767F7293C24DD00B58D94 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		662767FC293C282B00B58D94 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = English; path = English.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662767FE293C2A7200B58D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662767FF293C2C5B00B58D94 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		6657DBAC293C6AD10037EC4B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94EF9C05AE676963B294EEE4 /* Pods-PinchCanvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinchCanvas.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinchCanvas/Pods-PinchCanvas.release.xcconfig"; sourceTree = "<group>"; };
 		BF356BB21A27052100346FD0 /* PinchCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF356BB61A27052100346FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF356BB71A27052100346FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,22 +100,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6617B51F293DAB4300EF473C /* youtube_ios_player_helper.framework in Frameworks */,
+				6617B4ED293D70D300EF473C /* JavaScriptCore.framework in Frameworks */,
 				6657DBAD293C6AD10037EC4B /* QuartzCore.framework in Frameworks */,
 				66276800293C2C5B00B58D94 /* MediaPlayer.framework in Frameworks */,
 				662767F8293C24DD00B58D94 /* AVKit.framework in Frameworks */,
 				BFCF445D1DCF31F1008A57DB /* ScreenLayout.framework in Frameworks */,
+				B932D5F30370100B7B45A62C /* Pods_PinchCanvas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37332EE704F88268311D9CF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06BA5AD16ABD6AA70F322EF6 /* Pods-PinchCanvas.debug.xcconfig */,
+				94EF9C05AE676963B294EEE4 /* Pods-PinchCanvas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BF356BA91A27052100346FD0 = {
 			isa = PBXGroup;
 			children = (
 				BF356BB41A27052100346FD0 /* PinchCanvas */,
 				BF356BB31A27052100346FD0 /* Products */,
 				BF9B715B1DE47039003611C3 /* Frameworks */,
+				37332EE704F88268311D9CF1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,10 +168,14 @@
 		BF9B715B1DE47039003611C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6617B51E293DAB4300EF473C /* youtube_ios_player_helper.framework */,
+				6617B4EC293D70D300EF473C /* JavaScriptCore.framework */,
 				6657DBAC293C6AD10037EC4B /* QuartzCore.framework */,
 				662767FF293C2C5B00B58D94 /* MediaPlayer.framework */,
 				662767F7293C24DD00B58D94 /* AVKit.framework */,
 				BF356BDB1A27055A00346FD0 /* ScreenLayout.xcodeproj */,
+				6617B4E9293D6E0900EF473C /* libXCDYouTubeKit.a */,
+				17BFA40A1840FF8CBA80A90C /* Pods_PinchCanvas.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,10 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF356BD51A27052100346FD0 /* Build configuration list for PBXNativeTarget "PinchCanvas" */;
 			buildPhases = (
+				748795B1B52968E13F8FF61A /* [CP] Check Pods Manifest.lock */,
 				BF356BAE1A27052100346FD0 /* Sources */,
 				BF356BAF1A27052100346FD0 /* Frameworks */,
 				BF356BB01A27052100346FD0 /* Resources */,
 				BF356BE81A27057D00346FD0 /* Embed Frameworks */,
+				F60459A4386184F6E10FAD5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +284,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		748795B1B52968E13F8FF61A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinchCanvas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60459A4386184F6E10FAD5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PinchCanvas/Pods-PinchCanvas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PinchCanvas/Pods-PinchCanvas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF356BAE1A27052100346FD0 /* Sources */ = {
@@ -343,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -381,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -390,11 +457,12 @@
 		};
 		BF356BD61A27052100346FD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BA5AD16ABD6AA70F322EF6 /* Pods-PinchCanvas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2MS5AAXN73;
 				INFOPLIST_FILE = PinchCanvas/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.junpluse.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,11 +472,12 @@
 		};
 		BF356BD71A27052100346FD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94EF9C05AE676963B294EEE4 /* Pods-PinchCanvas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2MS5AAXN73;
 				INFOPLIST_FILE = PinchCanvas/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.junpluse.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

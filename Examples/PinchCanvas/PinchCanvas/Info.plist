@@ -46,7 +46,7 @@
             <true/>
             <key>NSExceptionDomains</key>
             <dict>
-                <key>      http://techslides.com/demos/sample-videos/small.mp4</key>
+                <key>http://www.youtube.com/embed/eeSs_WSzK1Y</key>
                 <dict>
                     <key>NSIncludesSubdomains</key>
                     <true/>
