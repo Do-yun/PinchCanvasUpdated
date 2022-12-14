@@ -15,7 +15,7 @@ Time synchronization: (https://drive.google.com/file/d/1h7GA1qtWhuL1PgvAYrvozBwM
 Download the code, open in Xcode **Examples** -> **PinchCanvas** -> **PinchCanvas.xcworkspace**
 
 ## Application usage
-Once the application is open, it automatically connects all the devices found. There are two textfields on the top of the screen. The fist one is to enter the video identifier. 
+Once the application is open, it automatically connects all the devices found. There are two textfields on the top of the screen.<br/> The fist one is to enter the video identifier. 
 * For example, if the url of the video is https://www.youtube.com/watch?v=DVNwiAPuPTY , the video identifier is DVNwiAPuPTY.<br/>Make sure that you enter 11 characters, otherwise the application will report an error.<br/>
 
 
