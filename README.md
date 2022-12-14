@@ -9,7 +9,7 @@ Time synchronization: (https://drive.google.com/file/d/1h7GA1qtWhuL1PgvAYrvozBwM
 ## Requirements
 
 - Xcode 11.0+
-- iOS 8.1+
+- iOS 11.0+
 
 ## Execution of code
 Download the code, open in Xcode **Examples** -> **PinchCanvas** -> **PinchCanvas.xcworkspace**
